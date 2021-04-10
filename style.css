@@ -1,0 +1,213 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: #2c5c9d;
+    
+}
+.logo{
+    position: absolute;
+    height: 63px;
+    width: 190px;
+    left: 1%;
+    padding-top: 15px;
+}
+.log_form{
+    display: flex;
+    position: absolute;
+    font-family:Orienta;
+    left: 58%;
+    top: 15px;
+}
+.log_form .email,
+.log_form .password{
+    padding-left: 10px;
+}
+.log_form .email .font,
+.log_form .password .font{
+    font-size: 13px;
+    padding-bottom: 8px;
+    color: #fafaff;
+}
+.log_form .email input,
+.log_form .password input{
+    height: 23px;
+    width: 150px;
+    padding-left: 5px;
+    border: 1px solid #30343f;
+    outline: none;
+}
+.log_form button{
+    margin-top: 20px;
+    margin-left:4%;
+    height: 24px;
+    width: 85px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #27cf69;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color:#27cf69;
+    font-family: Frank-Ruhl-Libre;
+}
+
+
+section{
+    height: 614px;
+    width: 100%;
+    top: 80px;
+    background-color: #fafaff;
+    font-family:Frank-Ruhl-Libre ;
+}
+.logo_body{
+    position: absolute;
+    left:1%;
+    top: 15%; 
+    width: 600px;
+    padding-left: 5px;
+    
+}
+.logo_body .like_font{
+    font-family: arial;
+    font-size: 25px;
+    margin-left: 7px;
+}
+.logo_body .font1{
+    color:#30343f;
+    margin-left: 7px;   
+    margin-bottom:15px;
+}
+.signup_body{
+    font-family:Frank-Ruhl-Libre ;
+    position: absolute;
+    left: 57%;  
+}
+.signup_body .acc_crt{
+    font-size: 40px;
+    margin: 25px 0;
+}
+.signup_body .free_hint{
+    margin: -20px 5px;
+    font-size: 18px;
+}
+.signup_body .signup_form input{
+    margin-top: 50px;
+    height: 38px;
+    width: 190px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid #fafaff,#30343f;
+    border-radius: 4px;
+    font-family: Frank-Ruhl-Libre;
+
+}
+.signup_body .signup_form .Surname{
+    margin-left: 15px;
+}
+.signup_body .signup_form .email,
+.signup_body .signup_form .password{
+    margin-top: 20px;
+    width: 410px;
+}
+.signup_body .signup_form .birthday{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#e4d98e;
+   
+   
+}
+.signup_body .signup_form .birth_date{
+    margin-top: 5px;
+    font-family: Frank-Ruhl-Libre;
+
+}
+.signup_body .signup_form .month,
+.signup_body .signup_form .day,
+.signup_body .signup_form .year{
+    height: 28px;
+}
+.signup_body .signup_form .day,
+.signup_body .signup_form .year{
+    margin-left: -1px;
+}
+.signup_body .signup_form .brth_hint{
+    font-size: 11px;
+    padding-left: 170px;
+    margin-top: -28px;
+    width: 150px;
+}
+.signup_body .signup_form a{
+    text-decoration: none;
+
+
+}
+.signup_body .signup_form .Gender{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#e4d98e;
+    font-family: Frank-Ruhl-Libre;
+
+}
+.signup_body .signup_form input[type="radio"]{
+    height: 15px;
+    margin-left:-1px;
+    margin-top: 10px;
+    width: 30px;
+   
+
+}
+.signup_body .signup_form input[value="female"]{
+    margin-right: 30px;
+   
+
+
+}
+ .signup_body .signup_form input[value="Custom"]{
+     margin-right: 10px;
+
+    
+}
+.signup_body .signup_form .font{
+    margin-left: 50px;
+    margin-top: -20px;
+}
+.signup_body .signup_form .font2{
+    margin-left: 150px;
+}
+.signup_body .signup_form .agreement{
+    margin-top: 15px;
+    font-size: 12px;
+    width: 350px;
+    color:#30343f;
+    font-family: Frank-Ruhl-Libre;
+}
+.signup_body .signup_form .signup{
+    margin-top: 20px;
+    height: 38px;
+    width: 170px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #27cf69;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    background-color:#27cf69;
+    font-family: Frank-Ruhl-Libre;
+
+}
+
+.Create-page{
+   top: 40px;
+    position:relative;
+    right: -0px;
+    font-size: 15px;
+    font-family:Frank-Ruhl-Libre ;
+}
